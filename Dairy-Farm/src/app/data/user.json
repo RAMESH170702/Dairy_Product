@@ -1,0 +1,33 @@
+{
+  "user": [
+    {
+      "username": "ramesh",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "username": "ramesh",
+      "password": "1234",
+      "email": "",
+      "id": 2
+    },
+    {
+      "username": "ramesh",
+      "password": "1234",
+      "email": "Ramesh@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "ramesh",
+      "password": "1234",
+      "email": "Ramesh@gmail.com",
+      "id": 4
+    },
+    {
+      "username": "ramesh",
+      "password": "1234",
+      "email": "ramesh@gmail.com",
+      "id": 5
+    }
+  ]
+}

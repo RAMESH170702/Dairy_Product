@@ -1,0 +1,18 @@
+<div id="product-viewer">
+    <mat-card  *ngIf = "product" >
+        <img [src]="product.url" alt="">
+        <div id="text">
+        <h1>{{product.name}}</h1><br>
+        <span>
+        <span id="discounted-price">{{product.discountPrice}}</span>&nbsp;&nbsp;
+        <span id="percent">{{product.percentage}}</span>
+        </span><br>
+        <span>M.R.P: <span style="text-decoration: line-through; font-size: 15px;">{{product.actualPrice}}</span>  (Incl. of all taxes)</span><br><br>
+        <span style="font-weight: 500; font-size: 20px;">Sold By  Dairy Farm</span><br><br>
+        <span style="font-weight: 500; font-size: 20px;">Delivery Between 29th Jan to 31st Jan</span><br><br>
+        <button mat-icon-button id="add-button" (click)="addToCart(product)" [disabled]="product.addedToCart">
+            <span id="add">{{ product.addedToCart ? 'Added to Cart' : 'Add to Cart' }}</span>
+        </button>
+        </div>
+    </mat-card>
+</div>

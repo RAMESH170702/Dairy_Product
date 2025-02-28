@@ -1,0 +1,38 @@
+#product-viewer {
+    margin: 40px auto;
+    width: 40%;
+}
+
+#product-viewer img {
+    height: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#discounted-price {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#percent {
+    font-size: 25px;
+    display: inline-block;
+    background-color: #e0f8ef;
+}
+
+#text {
+    text-align: center;
+}
+
+#add-button {
+    border: 1px solid black;
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: royalblue;
+}

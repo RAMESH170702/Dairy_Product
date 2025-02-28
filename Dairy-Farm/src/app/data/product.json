@@ -1,0 +1,103 @@
+{
+    "product":[
+    {
+        "url":"/assets/amul-butter-100-g",
+        "name": "Amul Butter 100 g (Carton)",
+        "discountPrice":"₹53.00",
+        "actualPrice":"₹58.00",
+        "percentage":"8% OFF",
+        "category":"butter",
+        "price":53,
+        "quantity":1,
+        "id": 1
+    },
+    {
+        "url":"/assets/amul-butter-500-g-carton.webp",
+        "name": "Amul Butter 500 g (Carton)",
+        "discountPrice":"₹275.00",
+        "actualPrice":"₹285.00",
+        "percentage":"3% OFF",
+        "category":"butter",
+        "price":275,
+        "quantity":1,
+        "id": 2
+    },
+    {
+        "url":"/assets/amul-cheese-block-200-g.webp",
+        "name": "Amul Cheese Block 200 g (Carton)",
+        "discountPrice":"₹120.00",
+        "actualPrice":"₹130.00",
+        "percentage":"7% OFF",
+        "category":"cheese",
+        "price":120,
+        "quantity":1,
+        "id": 3
+    },
+    {
+        "url":"/assets/amul-mexican-cheese-sauce-200-g.webp",
+        "name": "Amul Mexican Cheese Sauce 200 g (Squeeze Bottle)",
+        "discountPrice":"₹73.00",
+        "actualPrice":"₹92.00",
+        "percentage":"20% OFF",
+        "category":"cheese",
+        "price": 73,
+        "quantity":1,
+        "id": 4
+    },
+    {
+        "url":"/assets/amul-yummy-plain-cheese-spread-200-g.webp",
+        "name": "Amul Yummy Plain Cheese Spread 200 g (Container)",
+        "discountPrice":"₹104.00",
+        "actualPrice":"₹110.00",
+        "percentage":"5% OFF",
+        "category":"cheese",
+        "price":104,
+        "quantity":1,
+        "id": 5
+    },
+    {
+        "url":"/assets/amul-moti-homogenised-toned-milk-450-ml.webp",
+        "name": "Amul Moti Homogenised Toned Milk 450 ml (ESL pouch)",
+        "discountPrice":"₹31.00",
+        "actualPrice":"₹33.00",
+        "percentage":"6% OFF",
+        "category":"milk",
+        "price":31,
+        "quantity":1,
+        "id": 6
+    },
+    {
+        "url":"/assets/amul-taaza-toned-milk-200-ml.webp",
+        "name": "Amul Taaza Toned Milk 200 ml (Tetra Pak)",
+        "discountPrice":"₹14.00",
+        "actualPrice":"₹16.00",
+        "percentage":"12% OFF",
+        "category":"milk",
+        "price":14,
+        "quantity":1,
+        "id": 7
+    },
+    {
+        "url":"/assets/milky-mist-curd-1-kg.webp",
+        "name": "Milky Mist Curd 1 kg (Container)",
+        "discountPrice":"₹69.00",
+        "actualPrice":"₹138.00",
+        "percentage":"50% OFF",
+        "category":"curd",
+        "price":69,
+        "quantity":1,
+        "id": 8
+    },
+    {
+        "url":"/assets/amul-masti-dahi-1-kg.webp",
+        "name": "Amul Masti Dahi 1 kg (Pouch)",
+        "discountPrice":"₹72.00",
+        "actualPrice":"₹77.00",
+        "percentage":"6% OFF",
+        "category":"curd",
+        "price":72,
+        "quantity":1,
+        "id": 9
+    }
+    ]
+}

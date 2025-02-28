@@ -1,0 +1,28 @@
+<div style="display:flex; overflow-x: auto;">
+    <div>
+        <mat-card *ngFor="let product of filteredProductList">
+            <a [routerLink]="['/product', product.id]">
+                <img mat-card-image [src]="product.url" id="image">
+                <mat-card-content>
+                    <mat-card-subtitle id="text">
+                        {{product.name}}<br><br>
+                        <span id="price-container">
+                            <span id="discounted-price" [ngStyle]="{'font-weight': 'bold'}">
+                                {{product.discountPrice}}
+                            </span>&nbsp;&nbsp;
+                            <span id="actual-price" [ngStyle]="{'font-size.px': '12', 'text-decoration': 'line-through'}">
+                                {{product.actualPrice}}
+                            </span>&nbsp;
+                            <span id="percentage" [ngClass]="{'green-background': product.percentage}">
+                                {{product.percentage}}
+                            </span>
+                        </span>
+                    </mat-card-subtitle>
+                </mat-card-content>
+            </a>
+            <button mat-icon-button id="add-button" (click)="addToCart(product)" [disabled]="product.addedToCart">
+                <span id="add">{{ product.addedToCart ? 'Added to Cart' : 'Add to Cart' }}</span>
+            </button>
+       </mat-card>
+    </div>
+</div>

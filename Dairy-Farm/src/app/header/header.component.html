@@ -1,0 +1,37 @@
+<mat-toolbar color="primary" id="header">
+    <div id="title-block">
+        <a id="home-link" href="/">
+            <h1>Dairy Farm</h1>
+        </a>
+    </div>
+    <div id="searchbar">
+        <div id="search">
+            <mat-select id="category" [(ngModel)]="selectedCategory" (ngModelChange)="SearchFilter()">
+                @for (category of Category; track category) {
+                    <mat-option [value]="category">{{category}}</mat-option>
+                }
+            </mat-select>
+        </div>
+        <div>    
+            <input matInput type="text" name="searchquery" id="searchquery" [(ngModel)]="searchQuery">
+        </div>
+        <div>
+            <button mat-icon-button id="button" (click)="applySearchFilter()">
+                <mat-icon>search</mat-icon>
+            </button>
+        </div>
+    </div>
+    <div id="navbar">
+        <button mat-icon-button [routerLink]="['/cart']"> 
+            <mat-icon>shopping_cart</mat-icon>
+            <span class="cart-count">{{ cartCount }}</span>
+        </button>
+        <button mat-icon-button *ngIf="!isLoggedIn" [routerLink]="['/login']"> 
+            <mat-icon>Login</mat-icon>
+        </button>
+        <button mat-icon-button *ngIf="!isLoggedIn" [routerLink]="['register']"> 
+            <mat-icon>Signup</mat-icon>
+        </button>
+    </div>
+</mat-toolbar>
+<router-outlet></router-outlet>

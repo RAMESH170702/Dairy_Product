@@ -1,0 +1,57 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #d70052;
+}
+
+#title-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#home-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#category {
+    margin-bottom: 50px;
+    background-color: grey;
+    width: 130px;
+    height: 28px;
+    margin-top: 55px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-top: 7px;
+}
+
+#searchquery {
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#button {
+    margin-top: 10px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

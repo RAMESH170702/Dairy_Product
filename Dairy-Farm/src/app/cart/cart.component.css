@@ -1,0 +1,32 @@
+/* Style for Cart Component */
+#cart-header {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #cart-items {
+    padding: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  #total-price {
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
